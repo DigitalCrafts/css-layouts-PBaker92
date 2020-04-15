@@ -1,0 +1,22 @@
+header, main, aside, footer {
+    position: absolute;
+}
+header {
+    width: 100%;
+    top: 0;
+}
+aside{
+    width: 20%;
+    right: 0;
+    top: 87px;
+    height: calc(100% - 87px);
+}
+
+main{
+    width: 80%;
+    top: 87px;
+}
+footer{
+    bottom: 0;
+    width: 100%;
+}
